@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <span {% if page.nav == "home" %}class="loc"{% endif %} style="display: block;"><a href="/">Bjarni Tor Pétursson</a></span>
+
+        <ul id="nav">
+          <!--<li><a href="/">home</a></li>-->
+          <li {% if page.nav == "w1" %}class="loc"{% endif %}><a href="/w1/">Next room harp</a></li>
+          <li {% if page.nav == "w2" %}class="loc"{% endif %}><a href="/w2/">Fade from black</a></li>
+          <li {% if page.nav == "w3" %}class="loc"{% endif %}><a href="/w3/">Faun</a></li>
+          <li {% if page.nav == "w4" %}class="loc"{% endif %}><a href="/w4/">The Cave</a></li>
+          <li {% if page.nav == "w5" %}class="loc"{% endif %}><a href="/w5/">A sea in which one could drown</a></li>
+          <li {% if page.nav == "w6" %}class="loc"{% endif %}><a href="/w6/">Carpet island</a></li>
+          <li id="nav_break"></li>
+          <li {% if page.nav == "cv" %}class="loc"{% endif %}><a href="/cv/">cv</a></li>
+          <li {% if page.nav == "contact" %}class="loc"{% endif %}><a href="/contact/">contact</a></li>
+        </ul>
+
+        {{ content }}
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Binni
+/*
+/*****************************************************************************/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+ul#nav {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
