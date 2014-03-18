@@ -1,11 +1,44 @@
 ---
 layout: default
 title: Bjarni Tor Pétursson
-nav: home
 ---
-<div id="works">
-	<img src="/img/home1f.jpg">
-	<img src="/img/home2f.jpg">
-	<img src="/img/home3f.jpg">
-	<img src="/img/home4f.jpg">
+
+<div id="block" class="row">
+    {% include nav.html %}
+
+    <div class="content largec show-for-medium-up">
+        {% include w0.html %}
+        {% include w1.html %}
+        {% include w2.html %}
+        {% include w3.html %}
+        {% include w4.html %}
+        {% include w5.html %}
+        {% include w6.html %}
+        <div class="cv other">
+            {% capture cv %}{% include cv.md %}{% endcapture %}
+            {{ cv | markdownify }}
+        </div>
+        <div class="contact other">
+            {% capture contact %}{% include contact.md %}{% endcapture %}
+            {{ contact | markdownify }}
+        </div>
+    </div>
+
+    <div class="content small-12 show-for-small-down">
+        {% include w0.html %}
+        {% include w1.html %}
+        {% include w2.html %}
+        {% include w3.html %}
+        {% include w4.html %}
+        {% include w5.html %}
+        {% include w6.html %}
+        <div class="cv other">
+            {% capture cv %}{% include cv.md %}{% endcapture %}
+            {{ cv | markdownify }}
+        </div>
+        <div class="contact other">
+            {% capture contact %}{% include contact.md %}{% endcapture %}
+            {{ contact | markdownify }}
+        </div>
+    </div>
 </div>

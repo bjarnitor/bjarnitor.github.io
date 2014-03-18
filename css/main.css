@@ -60,6 +60,7 @@ hr {
 audio,
 canvas,
 img,
+svg,
 video {
     vertical-align: middle;
 }
@@ -97,17 +98,82 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.row {
+    max-width: 100%;
+}
 
+.column {
+    padding: 0px;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10px !important;
+  margin: 0px !important;
+  margin-top: 40px !important;
+  color: #666666 !important;
+  /*letter-spacing: 1px;*/
+}
 
+body p {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10px !important;
+  color: #666666 !important;
+}
 
+#nav {
+  float: left;
+  width: 230px;
+  margin-bottom: 50px;
+  margin-left: 30px !important;
+}
 
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 10px !important;
+}
 
+.nav_break {
+  margin-bottom: 50px;
+}
 
+a {
+  color: #666666;
+  text-decoration: none;
+}
 
+a:visited {
+  color: #666666;
+}
 
+a:hover {
+  color: #000000;
+}
 
+.content.largec {
+  margin-left: 270px;
+  top: 0px;
+  padding-right: 40px;
+}
 
+.content.small-12 {
+  float: left;
+}
+
+.content .w {
+    max-width: 1000px;
+}
+
+ .content img {
+    margin-bottom: 10%;
+}
+
+.content .other {
+  margin-left: 30px;
+}
 
 
 
@@ -116,25 +182,6 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-/*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
@@ -205,15 +252,6 @@ textarea {
     clear: both;
 }
 
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
-}
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -261,7 +299,6 @@ textarea {
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
@@ -301,84 +338,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-
-/*****************************************************************************/
-/*
-/* Binni
-/*
-/*****************************************************************************/
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  margin: 30px;
-  margin-top: 40px;
-  color: #666666;
-}
-
-ul#nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  width: 200px;
-  float: left;
-}
-
-ul#nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#nav_break {
-  margin-bottom: 50px;
-}
-
-a {
-  color: #666666;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #666666;
-}
-
-a:hover {
-  color: #000000;
-}
-
-.loc a {
-  color: #000000 !important;
-}
-
-#works {
-    text-align: center;
-    float: left;
-    position: relative;
-    top: -14px;
-    /* Firefox */
-    width: -moz-calc(100% - 200px);
-    /* WebKit */
-    width: -webkit-calc(100% - 200px);
-    /* Opera */
-    width: -o-calc(100% - 200px);
-    /* Standard */
-    width: calc(100% - 200px);
-    max-width: 1200px;
-}
-
-#works img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 110px;
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    max-height: 1100px;
-    float: left;
 }
