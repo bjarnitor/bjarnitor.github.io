@@ -25,3 +25,6 @@ SELECTED EXHIBITIONS:
 2008  Hústaka. Old police stations, Kopavogur, Iceland  
 2007  Anima gallery, Reykjavík, Iceland  
 2006  Nordic music days, Verid, Reykjavík, Iceland
+
+Email: [bjarnipetursson@gmail.com](mailto:bjarnipetursson@gmail.com)  
+Phone: +46 73 141 77 37
