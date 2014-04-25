@@ -164,10 +164,10 @@ a:hover {
 }
 
 .content .w {
-    max-width: 1000px;
+    max-width: 600px;
 }
 
- .content img {
+.content img {
     margin-bottom: 10%;
 }
 
