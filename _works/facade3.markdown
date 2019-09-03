@@ -5,7 +5,7 @@ overview_group: 2
 image_in_overview: 1
 navigation_weight: -3
 navigation_space: 0
-over_weight: -2.25
+over_weight: -2.06
 default_description: "Bird  \n2018  \nFilm still"
 Items:
 - image: "/uploads/newb2.jpg"
@@ -14,4 +14,6 @@ Items:
   description:
 - image: "/uploads/inngangur4.jpg"
   description:
+- image: "/uploads/newx-2.jpg"
+  description: "Bird  \n2018  \nInstallation view"
 ---

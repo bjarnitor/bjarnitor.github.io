@@ -2,7 +2,7 @@
 title: Untitled Photograph
 date: 2017-01-03 09:30:00 Z
 overview_group: 2
-over_weight: -2.11
+over_weight: -2
 image_in_overview: 2
 navigation_space: 2
 navigation_weight: 21

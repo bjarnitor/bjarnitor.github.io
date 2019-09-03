@@ -4,7 +4,8 @@ $(".work .img_nav img").click(function() {
 	$(".item img[src$='"+src+"']").parent().show()
 });
 
-var space = 230;
+//var space = 230;
+var space = 200;
 function setH(that) {
 	  var h = $(that).parent().height();
 	  var m = Math.round(space - h);
