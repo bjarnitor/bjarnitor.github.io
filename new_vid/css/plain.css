@@ -1,7 +1,7 @@
 #container {
-	margin: 30px;
+	margin: 60px;
 }
 video {
-	margin-right: calc(30px - 5px);
-	margin-bottom: 30px;
+	margin-right: calc(60px - 5px);
+	margin-bottom: 60px;
 }
