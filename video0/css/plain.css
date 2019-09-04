@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	margin-top: calc(100px - 60px);
+	background-color: #000;
+}
+#container {
+	margin: 0 auto;
+	padding: 60px;
+}
+video {
+	margin-right: calc(0px - 6px + 25px);
+	margin-bottom: 25px;
+	max-width: 500px;
+	width: 33.333333%;
+}
+video:hover {
+	filter: brightness(1.2);
+}
+#thumb_videos {
+	text-align: left;
+}
+#thumb_videos a,
+a video {
+	outline: none;
+}

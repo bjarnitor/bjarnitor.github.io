@@ -1,11 +1,11 @@
 ---
-title: "Untitled / Dismantled set 2019"
+title: "Void/Miniature 2019"
 date: 2017-01-03 11:53:00 Z
 overview_group: 3
-over_weight: 4.9
-navigation_weight: 16
-navigation_space: 1
-default_description: "Untitled / Dismantled set  \n2019"
+over_weight: 0.005
+navigation_weight: 18
+navigation_space: 0
+default_description: "Void/Miniature  \nInstallation View  \n2019"
 Items:
 - image: "/uploads/newx-0.jpg"
 ---

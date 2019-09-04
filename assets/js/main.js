@@ -5,7 +5,7 @@ $(".work .img_nav img").click(function() {
 });
 
 //var space = 230;
-var space = 200;
+var space = 270;
 function setH(that) {
 	  var h = $(that).parent().height();
 	  var m = Math.round(space - h);

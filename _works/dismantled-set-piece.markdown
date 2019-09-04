@@ -1,5 +1,5 @@
 ---
-title: Dismantled set piece
+title: Dismantled set piece 2011
 date: 2017-01-03 11:59:00 Z
 overview_group: 3
 navigation_weight: 17

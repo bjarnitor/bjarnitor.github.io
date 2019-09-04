@@ -165,13 +165,15 @@ nav.main-nav ul li.space4 {
 
 #over_group1,
 #over_group2,
-#over_group3 {
+#over_group3,
+#over_group4 {
 	float: left;
 }
 
 #over_group2,
-#over_group3 {
-	margin-left: 108px;
+#over_group3,
+#over_group4 {
+	margin-left: 45px;
 }
 
 

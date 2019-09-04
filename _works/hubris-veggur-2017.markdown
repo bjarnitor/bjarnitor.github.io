@@ -5,7 +5,7 @@ overview_group: 3
 image_in_overview: 1
 navigation_weight: 9
 navigation_space: 0
-over_weight: 0
+over_weight: 7.9
 default_description: "Hubris veggur  \n2017"
 Items:
 - image: "/uploads/Veggur-Master-A-heimasida-ljost-small2.jpg"
