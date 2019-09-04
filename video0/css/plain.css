@@ -11,7 +11,7 @@ video {
 	margin-right: calc(0px - 6px + 25px);
 	margin-bottom: 25px;
 	max-width: 500px;
-	width: 33.333333%;
+	width: calc(25% - 25px);
 }
 video:hover {
 	filter: brightness(1.2);
