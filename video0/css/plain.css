@@ -7,20 +7,22 @@ body {
 	margin: 0 auto;
 	padding: 60px;
 }
-video {
+video, img {
 	margin-right: calc(0px - 6px + 25px);
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	max-width: 500px;
 	width: calc(25% - 25px);
 	background-color: #111111;
 }
-video:hover {
+video:hover,
+img:hover {
 	filter: brightness(1.2);
 }
 #thumb_videos {
 	text-align: left;
 }
 #thumb_videos a,
-a video {
+a video,
+a img {
 	outline: none;
 }
