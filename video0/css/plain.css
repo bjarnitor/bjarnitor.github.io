@@ -12,6 +12,7 @@ video {
 	margin-bottom: 25px;
 	max-width: 500px;
 	width: calc(25% - 25px);
+	background-color: #111111;
 }
 video:hover {
 	filter: brightness(1.2);
