@@ -29,5 +29,6 @@ function focus() {
 	}
 }
 
-$("a").click(blur);
+//$("a").click(blur);
+window.onblur = blur;
 window.onfocus = focus;
