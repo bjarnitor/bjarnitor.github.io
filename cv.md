@@ -83,6 +83,8 @@ grants:
   description: "The Swedish Arts Grants Committee / Konstnärsnämnden, One-year working grant"
 - year: 2018
   description: "The Swedish Arts Grants Committee / Konstnärsnämnden, Internationellt Kulturutbyte"
+- year: 2019
+  description: "The Swedish Arts Grants Committee / Konstnärsnämnden, Two-year working grant"
 layout: cv
 ---
 
