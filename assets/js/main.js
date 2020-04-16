@@ -1,3 +1,10 @@
+window.onpageshow = function(event) {
+	if (event.persisted) {
+		window.location.reload();
+	}
+};
+
+
 $(".work .img_nav img").click(function() {
 	var src = $(this).attr("src");
 	$(".item").hide();
@@ -7,11 +14,14 @@ $(".work .img_nav img").click(function() {
 //var space = 230;
 var space = 270;
 function setH(that) {
-	  var h = $(that).parent().height();
-	  var m = Math.round(space - h);
-	  $(that).parent().css("margin-bottom", m+"px");
+	var h = $(that).parent().height();
+	var m = Math.round(space - h);
+	$(that).parent().css("margin-bottom", m+"px");
 }
+
 $("#overview img").each(function() {
+	setH(this);
+
 	$(this).on('load', function(){
 		var that = this;
 		setH(that);
