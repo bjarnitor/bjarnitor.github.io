@@ -9,7 +9,7 @@ over_weight: 1
 default_description: "Facade Vol.1  \n2018  \nFilm still"
 Items:
 - image: "/uploads/imgbja1-1.jpg"
-  description: "Vol.1  \n2018  \nInstallation view"
+  description: "Facade Vol.1  \n2018  \nInstallation view"
 - image: "/uploads/inngangur2.jpg"
   description:
 ---
