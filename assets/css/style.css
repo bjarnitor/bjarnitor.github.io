@@ -215,6 +215,6 @@ table tr th {
   }
 
  .work {
-   /*min-width: auto;*/
+   min-width: auto;
  }
 }
