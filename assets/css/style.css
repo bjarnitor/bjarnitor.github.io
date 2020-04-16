@@ -200,3 +200,16 @@ table tr th:first-child {
 table tr th {
   vertical-align: top;
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 30px;
+  }
+
+  nav.main-nav {
+    position: relative;
+    top: 0px;
+    left:  0px;
+  }
+}
