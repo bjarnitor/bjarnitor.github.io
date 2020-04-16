@@ -217,4 +217,9 @@ table tr th {
  .work {
    min-width: auto;
  }
+
+ #overview > * {
+   margin-left: 0px;
+   clear: both;
+ }
 }
