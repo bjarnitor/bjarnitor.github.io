@@ -56,13 +56,15 @@ exhibitions:
 - year: 2017
   description: "II. Void, Gallery Obra, Malmö, Sweden"
 - year: 2018
-  description: "Facade, Galleri Format, Malmö, Sweden ( 11/8 - 16/9 )"
+  description: "Facade, Galleri Format, Malmö, Sweden"
 - year: 2018
   description: "The Star Show D7 Retrospective (group exhibition), Projcetrum D7, Copenhagen, Denmark"
 - year: 2018
   description: "Fragment of a line / Brot úr línu, Verksmiðjan Hjalteyri, Iceland"
 - year: 2019
-  description: Fixed Points, Verksmiðjan Hjalteyri, Iceland 
+  description: Fixed Points, Verksmiðjan Hjalteyri, Iceland
+- year: 2021
+  description: "Le Voyage d'Hiver - Festival / Vetrarferðalag, Iceland - France"
 publications:
 - year: 2011
   description: "Graduation Catalog, Icelandic Academy of the Arts"
