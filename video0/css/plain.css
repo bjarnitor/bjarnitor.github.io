@@ -7,12 +7,19 @@ body {
 	margin: 0 auto;
 	padding: 60px;
 }
-video, img {
+#thumb_videos a {
+	display: inline-block;
 	margin-right: calc(0px - 6px + 25px);
 	margin-bottom: 50px;
+
 	max-width: 500px;
 	width: calc(25% - 25px);
+
 	background-color: #111111;
+	overflow: hidden;
+}
+video, img {
+	width: 100%;
 }
 video:hover,
 img:hover {
@@ -25,4 +32,11 @@ img:hover {
 a video,
 a img {
 	outline: none;
+}
+
+.special.one video {
+	transform: scale(2.11) translateX(25.5%);
+}
+.special.two video {
+	transform: scale(2.11) translateX(-25.5%);
 }
