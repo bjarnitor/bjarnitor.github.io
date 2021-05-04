@@ -29,6 +29,20 @@ function focus() {
 	}
 }
 
+/*$(".special video").each(function() {
+	$(this).get(0).currentTime = 60*6;
+});*/
+console.log("SDFDSFS")
+document.getElementById('s1').addEventListener('loadedmetadata', function() {
+	this.currentTime = 60*6;
+	console.log("PLAY")
+	this.play();
+}, false);
+document.getElementById('s2').addEventListener('loadedmetadata', function() {
+	this.currentTime = 60*6;
+	this.play();
+}, false);
+
 //$("a").click(blur);
 window.onblur = blur;
 window.onfocus = focus;
