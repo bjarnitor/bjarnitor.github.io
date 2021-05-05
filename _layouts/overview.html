@@ -34,7 +34,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 1 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -61,7 +61,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 2 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -90,7 +90,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 3 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -111,7 +111,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 4 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -121,7 +121,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 5 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -131,7 +131,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 6 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -141,7 +141,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 7 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -151,7 +151,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 8 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -161,7 +161,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 9 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
@@ -171,7 +171,7 @@ layout: default_arrow
 {% for work in sorted_works %}
 {% if work.overview_group == 10 %}
 {% assign i = work.image_in_overview | minus:1 %}
-	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ work.Items[i].image | relative_url }}"></div></a><br><br>
+	<a href="{{ work.url | relative_url }}" class="over_group{{work.overview_group}}"><div class="hf"><img src="{{ (work.Items[i].image | replace: "/uploads/", "/uploads/thumbs/") | relative_url  }}"></div></a><br><br>
 {% endif %}
 {% endfor %}
 </div>
