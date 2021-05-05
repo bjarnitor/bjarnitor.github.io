@@ -4,6 +4,10 @@ window.onpageshow = function(event) {
 	}
 };
 
+if (window.location.hash == "#test") {
+	$(".hidden").removeClass("hidden");
+}
+
 
 $(".work .img_nav img").click(function() {
 	var src = $(this).attr("src");
