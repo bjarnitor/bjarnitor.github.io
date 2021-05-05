@@ -7,6 +7,18 @@ layout: default_arrow
 <div id="overview">
 
 <div id="over_group1">
+	<a href="http://bjarnitorpetursson.com/Facade1.excerpt.html" class="over_group1 hidden">
+		<div class="hf">
+		<video muted autoplay preload='none'>
+		<!--<source src="/media/examples/flower.webm"
+				type="video/webm">-->
+		<source src="http://labrador.is/media/media/videos1/500x/vid1-low.mp4"
+				type="video/mp4">
+		Sorry, your browser doesn't support embedded videos.
+		</video>
+		</div>
+	</a>
+
 {% assign sorted_works = (site.works | sort: 'over_weight')%}
 {% for work in sorted_works %}
 {% if work.overview_group == 1 %}

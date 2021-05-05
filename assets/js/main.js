@@ -30,3 +30,15 @@ $("#overview img").each(function() {
 		}, 1000);
 	});
 });
+
+$("#overview video").each(function() {
+	setH(this);
+
+	$(this).on('load', function(){
+		var that = this;
+		setH(that);
+		setTimeout(function() {
+			setH(that);
+		}, 1000);
+	});
+});

@@ -105,6 +105,20 @@ nav.main-nav ul li.space4 {
 	max-width: 200px;
 	max-height: 150px;
 }
+.hidden {
+	display: none;
+}
+
+#overview video {
+	width: auto;
+	height: auto;
+	max-width: 200px;
+	max-height: 150px;
+}
+.hidden {
+	display: none;
+}
+
 
 .over_space0 img {
 	margin-bottom: 0px;
